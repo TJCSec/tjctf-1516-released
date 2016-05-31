@@ -1,0 +1,6 @@
+name: Super Questionable Luggage Service
+author: okulkarni
+category: Web
+description: "I was using this great luggage storing service, but I accidentally stored my flag with them. Fortunately, my flag went in the wrong way, so it shouldn't be difficult for you to find. Right? <a href='http://super-questionable-luggage.p.tjctf.org'>super-questionable-luggage.p.tjctf.org</a>"
+points: 30
+flag: tjctf{th1s_m4d3_1t_e4s1er}

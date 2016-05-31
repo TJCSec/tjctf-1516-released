@@ -1,0 +1,6 @@
+name: Financial Transaction
+author: okulkarni
+category: Cryptography
+description: The History Museum sent us some money and encrypted the transfer using an Enigma Machine. Unfortunately, we were unable to decrypt the cipher and retrieve the money. Can you help us out? <a href='|cipher.txt|'>This is all we have.</a>
+points: 60
+flag: tjctf{MONEYISNOTEVERYTHING}
