@@ -1,0 +1,6 @@
+name: Reversing
+author: Fox Wilson (fwilson)
+category: Binary
+description: <a href="|reversing|">Reversing</a> can be very easy
+points: 20
+flag: tjctf{literally_reversing}

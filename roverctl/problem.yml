@@ -1,0 +1,6 @@
+name: roverctl
+author: Fox Wilson (fwilson)
+category: Misc
+description: Looks like the backdoor you installed on <em>Pathfinder</em> is working; you've captured <a href="|rover.pcapng|">these packets</a>. But what do they all mean? (<a href="|roverctl.pdf|">maybe this will help</a>)
+points: 100
+flag: tjctf{i_lik3_potat03s}
