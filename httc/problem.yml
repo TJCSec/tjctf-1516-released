@@ -1,0 +1,6 @@
+name: httc
+author: Samuel Damashek (sdamashek)
+category: Binary
+description: I made a web server. Using C. What could go wrong? Flag's at `../flag.txt`. <br/>http://p.tjctf.org:8013/<br/>Oh, you want the source? fiiiine... <a href="|server.c|">server.c</a> <a href="|server|">server</a>
+points: 165
+flag: "tjctf{tfw_n0_st@ck_pr0t3ct1on_lma0}"
