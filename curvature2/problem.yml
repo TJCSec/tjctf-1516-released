@@ -1,0 +1,6 @@
+name: curvature2
+author: Samuel Kim (ubuntor)
+category: Cryptography
+description: <a href="|curvature2.py|">curvature2.py</a>
+points: 200
+flag: tjctf{oops_ell1pt1c_curves_R_h4rd}

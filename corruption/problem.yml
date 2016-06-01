@@ -1,0 +1,6 @@
+name: corruption
+author: Samuel Kim (ubuntor)
+category: Forensics
+description: Have a <a href="|corrupted.png|">free flag!</a> It might have gotten corrupted in transmission, but that shouldn't be a problem for you. Right?
+points: 130
+flag: "tjctf{c0rruption? wh4t corrupt10n?}"

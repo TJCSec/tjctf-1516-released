@@ -1,0 +1,6 @@
+name: torrent
+author: Samuel Kim (ubuntor)
+category: Forensics
+description: Help, someone's sharing <a href="|flag.torrent|">flags</a>.
+points: 90
+flag: "tjctf{pls_2_n0t_fl4g_share}"

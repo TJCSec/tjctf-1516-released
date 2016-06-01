@@ -1,0 +1,6 @@
+name: guess
+author: Samuel Kim (ubuntor)
+category: Binary
+description: Can you guess the numbers? <a href="|guess.c|">guess.c</a> <a href="|guess|">guess</a><br/>nc p.tjctf.org 8007
+points: 120
+flag: "tjctf{n0t_so_r4ndom_4nymor3}"

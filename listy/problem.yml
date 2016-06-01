@@ -1,0 +1,6 @@
+name: listy
+author: Samuel Kim (ubuntor)
+category: Binary
+description: I rewrote my AP CS lab in C, and parallelized it for extreme efficiency (TM)! Security? What's that?</br>`nc p.tjctf.org 8016`</br><a href="|listy|">listy</a> <a href="|listy.c|">listy.c</a>
+points: 200
+flag: tjctf{Mall0cs_anD_free5_ma11ocs_And_fr33s}

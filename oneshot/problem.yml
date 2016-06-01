@@ -1,0 +1,6 @@
+name: oneshot
+author: Samuel Kim (ubuntor)
+category: Binary
+description: One plus one is done. `nc p.tjctf.org 8015`</br><a href="|oneshot|">oneshot</a>
+points: 170
+flag: "tjctf{m4gic_And_m0re_Mag1cK}"
