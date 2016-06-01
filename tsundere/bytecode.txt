@@ -1,0 +1,495 @@
+Compiled from "tsundere.java"
+public class tsundere {
+  public tsundere();
+    Code:
+       0: aload_0       
+       1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+       4: return        
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: ldc           #16                 // String 
+       2: astore_1      
+       3: iconst_0      
+       4: istore_2      
+       5: goto          56
+       8: bipush        48
+      10: aload_1       
+      11: iload_2       
+      12: invokevirtual #18                 // Method java/lang/String.charAt:(I)C
+      15: if_icmpgt     28
+      18: aload_1       
+      19: iload_2       
+      20: invokevirtual #18                 // Method java/lang/String.charAt:(I)C
+      23: bipush        57
+      25: if_icmple     53
+      28: bipush        97
+      30: aload_1       
+      31: iload_2       
+      32: invokevirtual #18                 // Method java/lang/String.charAt:(I)C
+      35: if_icmpgt     48
+      38: aload_1       
+      39: iload_2       
+      40: invokevirtual #18                 // Method java/lang/String.charAt:(I)C
+      43: bipush        122
+      45: if_icmple     53
+      48: bipush        9
+      50: invokestatic  #24                 // Method java/lang/System.exit:(I)V
+      53: iinc          2, 1
+      56: iload_2       
+      57: aload_1       
+      58: invokevirtual #30                 // Method java/lang/String.length:()I
+      61: if_icmplt     8
+      64: aload_1       
+      65: ldc           #34                 // String (?<=\G.{5})
+      67: invokevirtual #36                 // Method java/lang/String.split:(Ljava/lang/String;)[Ljava/lang/String;
+      70: astore_2      
+      71: ldc           #16                 // String 
+      73: astore_3      
+      74: iconst_0      
+      75: istore        4
+      77: goto          111
+      80: new           #40                 // class java/lang/StringBuilder
+      83: dup           
+      84: aload_3       
+      85: invokestatic  #42                 // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+      88: invokespecial #46                 // Method java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+      91: aload_2       
+      92: iload         4
+      94: aaload        
+      95: invokevirtual #49                 // Method java/lang/String.getBytes:()[B
+      98: invokestatic  #53                 // Method routine1:([B)Ljava/lang/String;
+     101: invokevirtual #57                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     104: invokevirtual #61                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     107: astore_3      
+     108: iinc          4, 1
+     111: iload         4
+     113: aload_2       
+     114: arraylength   
+     115: if_icmplt     80
+     118: aload_3       
+     119: ldc           #65                 // String C3704185F3162B815D577F12A54573E1907E9F272E076E837FAFB485BAB708B36205B07CCEE2104E5859C50D46379B8E4DDD05EC82EC41243A58314FE2EC19A5DA5CA17D002CA5AB179996F696C525A4D1158A0360EFAC7B6E13B747A98677E220B1D3CC33801999F0E34D3A466D9F1485E3C2779EDA3A4509B930D32C7BCE096517910DC8187CADA65E301E7A7C7838352D55CD0BA405536C1358D56552048CF4B8629B40C3BB8DDFF2D25554FF38F5580B72BE182F5D22D85CA678C5973C1746E31F03A6833828F5240549163903D8618B34779EE157B7B4C9B180B684CE9939FCBFEA91D068A5426CD432F0762A64519B3104854C46A2FE8A2D7057FA35ACCB69DC961943A11D9D7F2F11EDA8D1CBE6CF64BB437A7CE1BD3E01862BF2036E60BCEF1A1D3773A94FD05DB0A30A044C354FEDE02214D84F2F785A3BC2862495
+     121: invokevirtual #67                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     124: ifeq          135
+     127: getstatic     #71                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     130: ldc           #75                 // String Correct. Add 'tjctf{' and '}' for the flag
+     132: invokevirtual #77                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     135: return        
+
+  public static java.lang.String routine1(byte[]);
+    Code:
+       0: aload_0       
+       1: arraylength   
+       2: bipush        8
+       4: iadd          
+       5: bipush        6
+       7: iushr         
+       8: iconst_1      
+       9: iadd          
+      10: istore_1      
+      11: iload_1       
+      12: bipush        6
+      14: ishl          
+      15: istore_2      
+      16: iload_2       
+      17: aload_0       
+      18: arraylength   
+      19: isub          
+      20: newarray       byte
+      22: astore_3      
+      23: aload_3       
+      24: iconst_0      
+      25: bipush        -128
+      27: bastore       
+      28: aload_0       
+      29: arraylength   
+      30: i2l           
+      31: iconst_3      
+      32: lshl          
+      33: lstore        4
+      35: iconst_0      
+      36: istore        6
+      38: goto          65
+      41: aload_3       
+      42: aload_3       
+      43: arraylength   
+      44: bipush        8
+      46: isub          
+      47: iload         6
+      49: iadd          
+      50: lload         4
+      52: l2i           
+      53: i2b           
+      54: bastore       
+      55: lload         4
+      57: bipush        8
+      59: lushr         
+      60: lstore        4
+      62: iinc          6, 1
+      65: iload         6
+      67: bipush        8
+      69: if_icmplt     41
+      72: ldc           #91                 // int [B-b-baka! Did you really think I would give you this number?]
+      74: istore        6
+      76: ldc           #92                 // int [B-b-baka! Did you really think I would give you this number?]
+      78: istore        7
+      80: ldc           #93                 // int [B-b-baka! Did you really think I would give you this number?]
+      82: istore        8
+      84: ldc           #94                 // int [B-b-baka! Did you really think I would give you this number?]
+      86: istore        9
+      88: bipush        16
+      90: newarray       int
+      92: dup           
+      93: iconst_0      
+      94: bipush        7
+      96: iastore       
+      97: dup           
+      98: iconst_1      
+      99: bipush        12
+     101: iastore       
+     102: dup           
+     103: iconst_2      
+     104: bipush        17
+     106: iastore       
+     107: dup           
+     108: iconst_3      
+     109: bipush        22
+     111: iastore       
+     112: dup           
+     113: iconst_4      
+     114: iconst_5      
+     115: iastore       
+     116: dup           
+     117: iconst_5      
+     118: bipush        9
+     120: iastore       
+     121: dup           
+     122: bipush        6
+     124: bipush        14
+     126: iastore       
+     127: dup           
+     128: bipush        7
+     130: bipush        20
+     132: iastore       
+     133: dup           
+     134: bipush        8
+     136: iconst_4      
+     137: iastore       
+     138: dup           
+     139: bipush        9
+     141: bipush        11
+     143: iastore       
+     144: dup           
+     145: bipush        10
+     147: bipush        16
+     149: iastore       
+     150: dup           
+     151: bipush        11
+     153: bipush        23
+     155: iastore       
+     156: dup           
+     157: bipush        12
+     159: bipush        6
+     161: iastore       
+     162: dup           
+     163: bipush        13
+     165: bipush        10
+     167: iastore       
+     168: dup           
+     169: bipush        14
+     171: bipush        15
+     173: iastore       
+     174: dup           
+     175: bipush        15
+     177: bipush        21
+     179: iastore       
+     180: astore        10
+     182: bipush        64
+     184: newarray       int
+     186: astore        11
+     188: iconst_0      
+     189: istore        12
+     191: goto          219
+     194: aload         11
+     196: iload         12
+     198: ldc2_w        #95                 // double 4.294967296E9d
+     201: iload         12
+     203: iconst_1      
+     204: iadd          
+     205: i2d           
+     206: invokestatic  #97                 // Method java/lang/Math.sin:(D)D
+     209: invokestatic  #103                // Method java/lang/Math.abs:(D)D
+     212: dmul          
+     213: d2l           
+     214: l2i           
+     215: iastore       
+     216: iinc          12, 1
+     219: iload         12
+     221: bipush        64
+     223: if_icmplt     194
+     226: bipush        16
+     228: newarray       int
+     230: astore        12
+     232: iconst_0      
+     233: istore        13
+     235: goto          559
+     238: iload         13
+     240: bipush        6
+     242: ishl          
+     243: istore        14
+     245: iconst_0      
+     246: istore        15
+     248: goto          299
+     251: aload         12
+     253: iload         15
+     255: iconst_2      
+     256: iushr         
+     257: iload         14
+     259: aload_0       
+     260: arraylength   
+     261: if_icmpge     271
+     264: aload_0       
+     265: iload         14
+     267: baload        
+     268: goto          278
+     271: aload_3       
+     272: iload         14
+     274: aload_0       
+     275: arraylength   
+     276: isub          
+     277: baload        
+     278: bipush        24
+     280: ishl          
+     281: aload         12
+     283: iload         15
+     285: iconst_2      
+     286: iushr         
+     287: iaload        
+     288: bipush        8
+     290: iushr         
+     291: ior           
+     292: iastore       
+     293: iinc          15, 1
+     296: iinc          14, 1
+     299: iload         15
+     301: bipush        64
+     303: if_icmplt     251
+     306: iload         6
+     308: istore        15
+     310: iload         7
+     312: istore        16
+     314: iload         8
+     316: istore        17
+     318: iload         9
+     320: istore        18
+     322: iconst_0      
+     323: istore        19
+     325: goto          521
+     328: iload         19
+     330: iconst_4      
+     331: iushr         
+     332: istore        20
+     334: iconst_0      
+     335: istore        21
+     337: iload         19
+     339: istore        22
+     341: iload         20
+     343: tableswitch   { // 0 to 3
+                     0: 372
+                     1: 390
+                     2: 419
+                     3: 443
+               default: 465
+          }
+     372: iload         7
+     374: iload         8
+     376: iand          
+     377: iload         7
+     379: iconst_m1     
+     380: ixor          
+     381: iload         9
+     383: iand          
+     384: ior           
+     385: istore        21
+     387: goto          465
+     390: iload         7
+     392: iload         9
+     394: iand          
+     395: iload         8
+     397: iload         9
+     399: iconst_m1     
+     400: ixor          
+     401: iand          
+     402: ior           
+     403: istore        21
+     405: iload         22
+     407: iconst_5      
+     408: imul          
+     409: iconst_1      
+     410: iadd          
+     411: bipush        15
+     413: iand          
+     414: istore        22
+     416: goto          465
+     419: iload         7
+     421: iload         8
+     423: ixor          
+     424: iload         9
+     426: ixor          
+     427: istore        21
+     429: iload         22
+     431: iconst_3      
+     432: imul          
+     433: iconst_5      
+     434: iadd          
+     435: bipush        15
+     437: iand          
+     438: istore        22
+     440: goto          465
+     443: iload         8
+     445: iload         7
+     447: iload         9
+     449: iconst_m1     
+     450: ixor          
+     451: ior           
+     452: ixor          
+     453: istore        21
+     455: iload         22
+     457: bipush        7
+     459: imul          
+     460: bipush        15
+     462: iand          
+     463: istore        22
+     465: iload         7
+     467: iload         6
+     469: iload         21
+     471: iadd          
+     472: aload         12
+     474: iload         22
+     476: iaload        
+     477: iadd          
+     478: aload         11
+     480: iload         19
+     482: iaload        
+     483: iadd          
+     484: aload         10
+     486: iload         20
+     488: iconst_2      
+     489: ishl          
+     490: iload         19
+     492: iconst_3      
+     493: iand          
+     494: ior           
+     495: iaload        
+     496: invokestatic  #106                // Method java/lang/Integer.rotateLeft:(II)I
+     499: iadd          
+     500: istore        23
+     502: iload         9
+     504: istore        6
+     506: iload         8
+     508: istore        9
+     510: iload         7
+     512: istore        8
+     514: iload         23
+     516: istore        7
+     518: iinc          19, 1
+     521: iload         19
+     523: bipush        64
+     525: if_icmplt     328
+     528: iload         6
+     530: iload         15
+     532: iadd          
+     533: istore        6
+     535: iload         7
+     537: iload         16
+     539: iadd          
+     540: istore        7
+     542: iload         8
+     544: iload         17
+     546: iadd          
+     547: istore        8
+     549: iload         9
+     551: iload         18
+     553: iadd          
+     554: istore        9
+     556: iinc          13, 1
+     559: iload         13
+     561: iload_1       
+     562: if_icmplt     238
+     565: bipush        16
+     567: newarray       byte
+     569: astore        13
+     571: iconst_0      
+     572: istore        14
+     574: iconst_0      
+     575: istore        15
+     577: goto          652
+     580: iload         15
+     582: ifne          590
+     585: iload         6
+     587: goto          614
+     590: iload         15
+     592: iconst_1      
+     593: if_icmpne     601
+     596: iload         7
+     598: goto          614
+     601: iload         15
+     603: iconst_2      
+     604: if_icmpne     612
+     607: iload         8
+     609: goto          614
+     612: iload         9
+     614: istore        16
+     616: iconst_0      
+     617: istore        17
+     619: goto          643
+     622: aload         13
+     624: iload         14
+     626: iinc          14, 1
+     629: iload         16
+     631: i2b           
+     632: bastore       
+     633: iload         16
+     635: bipush        8
+     637: iushr         
+     638: istore        16
+     640: iinc          17, 1
+     643: iload         17
+     645: iconst_4      
+     646: if_icmplt     622
+     649: iinc          15, 1
+     652: iload         15
+     654: iconst_4      
+     655: if_icmplt     580
+     658: new           #40                 // class java/lang/StringBuilder
+     661: dup           
+     662: invokespecial #112                // Method java/lang/StringBuilder."<init>":()V
+     665: astore        15
+     667: iconst_0      
+     668: istore        16
+     670: goto          706
+     673: aload         15
+     675: ldc           #113                // String %02X
+     677: iconst_1      
+     678: anewarray     #3                  // class java/lang/Object
+     681: dup           
+     682: iconst_0      
+     683: aload         13
+     685: iload         16
+     687: baload        
+     688: sipush        255
+     691: iand          
+     692: invokestatic  #115                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     695: aastore       
+     696: invokestatic  #118                // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+     699: invokevirtual #57                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     702: pop           
+     703: iinc          16, 1
+     706: iload         16
+     708: aload         13
+     710: arraylength   
+     711: if_icmplt     673
+     714: aload         15
+     716: invokevirtual #61                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     719: areturn       
+}

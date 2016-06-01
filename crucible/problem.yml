@@ -1,0 +1,6 @@
+name: crucible
+author: Annabel Faylan
+category: Cryptography
+description: <a href="|crucible.py|">crucible.py</a> <a href="|matrix.py|">matrix.py</a> <a href="|encrypted.txt|">encrypted.txt</a>
+points: 140
+flag: tjctf{SGoeIvteuronmjAieDx}
