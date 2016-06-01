@@ -1,0 +1,6 @@
+name: I can see right through you!
+author: Aneesh Kotnana (Alaska47)
+category: Cryptography
+description: Bet you can't find the tasty flag I put into <a href="|i_can_see_right_through_you.png|">this image</a>! Don't worry, I fried it first.
+points: 75
+flag: "tjctf{baconmmmmmmtasty}"

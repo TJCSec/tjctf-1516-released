@@ -1,0 +1,6 @@
+name: Time Travel
+author: Aneesh Kotnana (Alaska47)
+category: Misc
+description: "I tried setting up Google Apps for TJCTF a while ago, but it wasn't working. Don't worry, I'm pretty sure it's fixed now.<br/>Hint: What do timetables, metallurgy, and metaphors all have in common?"
+points: 90
+flag: "tjctf{w1sh_i_c0uld_turn_b4ck_t1m3}"
