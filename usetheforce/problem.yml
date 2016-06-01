@@ -1,0 +1,6 @@
+name: Use the Force
+author: Kevin Geng
+category: Web
+description: Find the flag. <a href="http://usetheforce.p.tjctf.org/" target="_blank">usetheforce.p.tjctf.org</a>
+points: 80
+flag: tjctf{99f47fbbc74e814a9a00a6458d4e5c12}
