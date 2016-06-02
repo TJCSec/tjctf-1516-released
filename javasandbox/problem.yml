@@ -1,0 +1,6 @@
+name: Java Sandbox
+author: Eric Wang
+category: Web
+description: Everyone's heard of python jail escapes, but what about Java?
+points: 100
+flag: "tjctf{j4V4_R3FL3C710n_15_7R1CkY}"

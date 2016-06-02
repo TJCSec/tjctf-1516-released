@@ -1,0 +1,6 @@
+name: A Hundred Captchas
+author: Eric Wang
+category: Misc
+description: I heard that this server will give you a flag if you solve a few captchas for them.
+points: 60
+flag: "tjctf{p30PL3_4c7u4llY_D0_7H15}"
