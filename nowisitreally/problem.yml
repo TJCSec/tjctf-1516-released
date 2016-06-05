@@ -1,0 +1,6 @@
+name: nowisitreally
+author: Anubis Watal (AnubisSQLi)
+category: Forensics
+description: Here is a <a href="|nowisitreallya.txt|">text file</a> with the flag.
+points: 30
+flag: "tjctf{M1diF1L3S}"
